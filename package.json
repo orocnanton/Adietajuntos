@@ -1,0 +1,25 @@
+{
+  "name": "verabi",
+  "version": "1.0.0",
+  "description": "Verano",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Óscar Rodríguez Collazo",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "cssnext": "^1.8.4",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-postcss": "^6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "i": "^0.3.5",
+    "npm": "^3.8.9",
+    "postcss-import": "^8.1.2",
+    "precss": "^1.4.0",
+    "rucksack-css": "^0.8.6"
+  }
+}

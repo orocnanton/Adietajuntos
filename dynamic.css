@@ -1,0 +1,21 @@
+/* BEGIN dynamic_css */
+.slider-home {
+  background-image:url(http://www.1pixel.es/adietajuntos.es/wp-content/uploads/2016/06/SLIDER.jpg);
+ }
+.site-header{
+    background: #f7f7f7;
+}
+.front-page.presentacion{
+    background-color: #8bc34a;
+    background-image: url();
+    background-size: ;
+    color: #2d2d2d;
+ }
+
+.front-page.testimonios{
+    background-color: #dcedc8;
+    background-image: url();
+    background-size: ;
+    color: #000000
+ }
+/* END dynamic_css */
