@@ -41,7 +41,7 @@ get_header(); ?>
 							?>
 						</ul>
 					</div>
-					<div class="w3-half w3-container"><?php echo do_shortcode('[bbp-login]'); ?><br> o Registrate </div>
+					<div class="w3-half w3-container"><?php echo do_shortcode('[bbp-login]'); ?><br><a href="/membership-account/niveles-de-membresia/">Registrate</a></div>
 				<?php else : ?>
 					<div class="flexslider">
 						<ul class="slides">

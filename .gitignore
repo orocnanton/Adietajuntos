@@ -3,4 +3,5 @@
 *.log
 node_modules
 postcss
-
+package.json
+gulpfile.js
