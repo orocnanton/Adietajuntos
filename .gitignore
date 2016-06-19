@@ -1,6 +1,7 @@
 # Ignores
 .DS_Store
 *.log
+.idea
 node_modules
 postcss
 package.json
