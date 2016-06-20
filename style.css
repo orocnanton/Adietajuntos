@@ -196,11 +196,6 @@ td, th {
  * Site settings.
  * ----------------------------------------------------------------------------------------
  */
-/* Site with */
-/* Colors */
-/*
-// Typography*/
-/*// Spacing*/
 /*@import "partials/um";*/
 /**
  * - Genericons
@@ -751,13 +746,13 @@ input[type="search"].search-field {
   .social-navigation a[href*="dropbox.com"]:before {
     content: "\f225"; }
   .social-navigation a[href*="facebook.com"]:before {
-    content: "\f203"; }
+    content: "\f305"; }
   .social-navigation a[href*="flickr.com"]:before {
     content: "\f211"; }
   .social-navigation a[href*="foursquare.com"]:before {
     content: "\f226"; }
   .social-navigation a[href*="plus.google.com"]:before {
-    content: "\f206"; }
+    content: "\462"; }
   .social-navigation a[href*="github.com"]:before {
     content: "\f200"; }
   .social-navigation a[href*="instagram.com"]:before {
@@ -781,7 +776,7 @@ input[type="search"].search-field {
   .social-navigation a[href*="tumblr.com"]:before {
     content: "\f214"; }
   .social-navigation a[href*="twitter.com"]:before {
-    content: "\f202"; }
+    content: "\f301"; }
   .social-navigation a[href*="vimeo.com"]:before {
     content: "\f212"; }
   .social-navigation a[href*="wordpress.com"]:before, .social-navigation a[href*="wordpress.org"]:before {
@@ -789,13 +784,13 @@ input[type="search"].search-field {
   .social-navigation a[href*="youtube.com"]:before {
     content: "\f213"; }
   .social-navigation a[href^="mailto:"]:before {
-    content: "\f410"; }
+    content: "\f465"; }
   .social-navigation a[href*="spotify.com"]:before {
     content: "\f515"; }
   .social-navigation a[href*="twitch.tv"]:before {
     content: "\f516"; }
   .social-navigation a[href$="/feed/"]:before {
-    content: "\f413"; }
+    content: "\f303"; }
 
 /**
  * - Accessibility
@@ -1378,25 +1373,18 @@ blockquote:after,
 .site-footer {
   padding-top: 1.6;
   background: #DCEDC8; }
-
-.site-info {
-  color: #686868;
-  font-size: 16px;
-  font-size: 1.6rem;
-  line-height: 1.6153846154; }
-  .site-info a {
-    color: #689F38; }
-    .site-info a:hover, .site-info a:focus {
-      color: #8BC34A; }
-
-.site-footer .site-title {
-  font-family: inherit;
-  font-size: inherit; }
-  .site-footer .site-title:after {
-    content: "\002f";
-    display: inline-block;
-    opacity: 0.7;
-    padding: 0 0.307692308em 0 0.538461538em; }
+  .site-footer .site-info {
+    color: #686868;
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.6153846154; }
+    .site-footer .site-info a {
+      color: #689F38; }
+      .site-footer .site-info a:hover, .site-footer .site-info a:focus {
+        color: #8BC34A; }
+  .site-footer .site-title {
+    font-family: inherit;
+    font-size: inherit; }
 
 .relatedposts .feature {
   position: relative;

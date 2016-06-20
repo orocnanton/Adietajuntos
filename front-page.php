@@ -80,7 +80,9 @@ get_header(); ?>
 					<?php foreach( $destacados as $destacado) { ?>
 						<div class="w3-third w3-container">
 							<?php $category_link = get_category_link( $destacado['link_destacado'] ); ?>
-							<h2> <?php echo $destacado['contenido'];?> </h2>
+							<a href="<?php echo esc_url( $category_link ); ?>"><img class="size-medium aligncenter" src="<?php echo $destacado['imagen_destacado'];?>"></a>
+							<h3 class="w3-center"> <?php echo esc_html(get_cat_name($destacado['link_destacado'])); ?></h3>
+							<p><?php echo $destacado['contenido'];?></p>
 							<a class="w3-btn-block"  href="<?php echo esc_url( $category_link ); ?>">Leer más</a>
 						</div>
 					<?php } ?>
